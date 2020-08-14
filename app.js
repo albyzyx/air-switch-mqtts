@@ -2,7 +2,7 @@ const cluster = require('cluster')
 const mqemitter = require('mqemitter-mongodb')
 const mongoPersistence = require('aedes-persistence-mongodb')
 
-const MONGO_URL = 'mongodb://127.0.0.1:27017/mqttserver'
+const MONGO_URL = 'mongodb+srv://mqtts:6jrVnShzc6B9o9x9@as-mqtts-persistence-db.adj9k.mongodb.net/mqtts?retryWrites=true&w=majority'
 
 function startAedes() {
     const port = 1883
