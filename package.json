@@ -1,0 +1,20 @@
+{
+  "name": "mqttserver",
+  "version": "1.0.0",
+  "description": "airswitch-mqttbroker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "alby",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.42.5",
+    "aedes-persistence-mongodb": "^8.1.0",
+    "cluster": "^0.7.7",
+    "mqemitter-mongodb": "^7.0.2"
+  }
+}
